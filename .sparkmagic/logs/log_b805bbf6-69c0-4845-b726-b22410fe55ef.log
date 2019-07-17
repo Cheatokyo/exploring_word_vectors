@@ -1,0 +1,12 @@
+2019-07-17 09:13:46,407	DEBUG	SparkMagics	Initialized spark magics.
+2019-07-17 09:13:46,408	INFO	EventsHandler	InstanceId: b805bbf6-69c0-4845-b726-b22410fe55ef,EventName: notebookLoaded,Timestamp: 2019-07-17 09:13:46.408763
+2019-07-17 09:13:46,409	DEBUG	python3_jupyter_kernel	Loaded magics.
+2019-07-17 09:13:46,410	DEBUG	python3_jupyter_kernel	Changed language.
+2019-07-17 09:13:47,759	DEBUG	python3_jupyter_kernel	Registered auto viz.
+2019-07-17 09:13:48,653	INFO	EventsHandler	InstanceId: b805bbf6-69c0-4845-b726-b22410fe55ef,EventName: notebookSessionCreationStart,Timestamp: 2019-07-17 09:13:48.653227,SessionGuid: 876104ca-d1a3-486a-9f35-2d4ef0fb743c,LivyKind: pyspark3
+2019-07-17 09:13:48,657	ERROR	ReliableHttpClient	Request to 'http://localhost:8998/sessions' failed with 'HTTPConnectionPool(host='localhost', port=8998): Max retries exceeded with url: /sessions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6dacd5c128>: Failed to establish a new connection: [Errno 111] Connection refused',))'
+2019-07-17 09:13:48,657	INFO	EventsHandler	InstanceId: b805bbf6-69c0-4845-b726-b22410fe55ef,EventName: notebookSessionCreationEnd,Timestamp: 2019-07-17 09:13:48.657230,SessionGuid: 876104ca-d1a3-486a-9f35-2d4ef0fb743c,LivyKind: pyspark3,SessionId: -1,Status: not_started,Success: False,ExceptionType: HttpClientException,ExceptionMessage: Error sending http request and maximum retry encountered.
+2019-07-17 09:13:48,657	ERROR	SparkMagics	Error creating session: Error sending http request and maximum retry encountered.
+2019-07-17 09:14:17,921	INFO	EventsHandler	InstanceId: b805bbf6-69c0-4845-b726-b22410fe55ef,EventName: notebookSessionDeletionStart,Timestamp: 2019-07-17 09:14:17.921818,SessionGuid: 876104ca-d1a3-486a-9f35-2d4ef0fb743c,LivyKind: pyspark3,SessionId: -1,Status: not_started
+2019-07-17 09:14:17,922	DEBUG	LivySession	Deleting session '-1'
+2019-07-17 09:14:17,922	INFO	EventsHandler	InstanceId: b805bbf6-69c0-4845-b726-b22410fe55ef,EventName: notebookSessionDeletionEnd,Timestamp: 2019-07-17 09:14:17.922680,SessionGuid: 876104ca-d1a3-486a-9f35-2d4ef0fb743c,LivyKind: pyspark3,SessionId: -1,Status: not_started,Success: True,ExceptionType: ,ExceptionMessage: 
